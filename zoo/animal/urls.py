@@ -14,7 +14,7 @@ urlpatterns = [
     path('create/', views.create),
     
     # step 10 : List page
-    path('',views.index),
+    path('s',views.index),
     
     # step 11 Edit data
     path('edit/<animal_id>',views.edit),
